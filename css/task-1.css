@@ -6,6 +6,9 @@
   margin-bottom: 24px;
 }
 
+.item:not(:last-child) {
+}
+
 h2 {
   font-weight: 600;
   font-size: 24px;
@@ -24,7 +27,10 @@ li > ul li {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
-  margin-bottom: 8px;
   padding-left: 16px;
   padding-top: 8px;
+}
+
+li > ul li:not(:last-child) {
+  margin-bottom: 8px;
 }
