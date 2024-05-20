@@ -82,3 +82,7 @@ input, воно має бути в межах від 1 до 100 включно. 
 Для очищення колекції після натискання на кнопку Destroy створи функцію
 destroyBoxes(), яка очищає вміст div#boxes, у такий спосіб видаляючи всі
 створені елементи.
+
+/_
+https://www.figma.com/design/m8k9NQV7qZrtYDCvxfD68B/%D0%94%D0%97-JavaScript?node-id=0-1&t=E4CHK65sxc60YhUY-0
+_/
