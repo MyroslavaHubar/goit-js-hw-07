@@ -1,19 +1,20 @@
 #controls {
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
+  min-width: 486px;
   background-color: #f6f6fe;
+  margin-bottom: 16px;
   display: flex;
   gap: 16px;
-  margin-bottom: 16px;
 }
 
 input {
   border: 1px solid #808080;
   border-radius: 8px;
   padding: 8px 72px;
-  width: 150px;
+  min-width: 150px;
   text-align: center;
+  background-color: transparent;
 }
 
 #controls button {
@@ -32,10 +33,9 @@ input {
 #boxes {
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
+  min-width: 486px;
   background: #f6f6fe;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 44px;
 }
